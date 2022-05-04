@@ -193,10 +193,12 @@ footer{
         display: flex;
         flex-direction: column;
         margin: 0;
+        width: 100vw;
+        border: red 2px solid;
     }
 
     .orkut{
-        width: 100vw;
+        width: 100;
         margin: 0;
         align-items: center;
         justify-content: center;
@@ -233,21 +235,60 @@ footer{
         justify-content: center;
      }
 
-     .block1{
-         margin-top: 10px;
+     .block1{  
         width: 100vw;
         margin: 0;
         align-items: center;
         justify-content: center;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .container-login{
+         width: 100vw;
      }
 
      footer{
-
+        display: flex;
         margin-top: 10px;
         width: 100vw;
         margin: 0;
         align-items: center;
         justify-content: center;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
      }
+
+     main{
+         width: 100vw;
+         border: red 2px solid;
+         overflow: hidden;
+     }
+
+}
+
+
+@media (max-width: 450px){
+
+    ul{
+        display: block;
+    }
+
+    .orkut .logo{
+        position: relative;
+        right: 30px;
+    }
+
+    .container-login{
+        position: relative;
+        right: 50px;
+    }
+
+    .block1{
+        position:relative;
+        left: 50px;
+    }
+
 
 }
