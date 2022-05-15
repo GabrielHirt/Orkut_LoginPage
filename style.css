@@ -2,7 +2,7 @@ body{
    box-sizing: border-box;
    margin: 0;
    padding:0;
-
+    transition: linear 5s;
    display:flex;
    justify-content: center;
    align-items: center;
